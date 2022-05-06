@@ -45,6 +45,11 @@ a {
 
 }
 
+/* .first-section img {
+    max-width: 85%;
+    height: auto;
+} */
+
 .text-container1{
     display: flex;
     flex-direction: column;
@@ -80,14 +85,19 @@ button {
 .second-section {
     display: flex;
     flex-direction: column;
-    padding: 60px 240px 120px;
+    /* padding: 60px 240px 120px; */
     gap: 50px;
+    justify-content: center;
     align-items: center;
 }
 
 .container2 {
     display: flex;
-    gap: 50px;
+    gap: 36px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
 }
 .second-section img {
     width: 200px;
@@ -99,7 +109,7 @@ button {
 }
 
 .item {
-    width: 200px;
+    width: 220px;
     text-align: center;
 }
 
@@ -107,5 +117,24 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
 }
 
+.third-section {
+    background-color: #e5e7eb;
+    padding: 120px 240px;
+}
+
+.text3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.undertext3 {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 8px;
+}
