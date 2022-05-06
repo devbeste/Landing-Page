@@ -40,9 +40,7 @@ a {
 .container1 {
     display: flex;
     padding: 96px 0; 
-    align-items: center;
     justify-content: center;
-
 }
 
 /* .first-section img {
@@ -137,4 +135,38 @@ button {
     font-weight: bold;
     text-align: right;
     margin-top: 8px;
+}
+
+.fourth-section {
+    padding: 120px 240px;
+}
+
+.container4 {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 20px;
+    padding: 30px 60px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.title4 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.fourth-section button {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 32px;
 }
